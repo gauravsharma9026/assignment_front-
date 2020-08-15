@@ -1,0 +1,10 @@
+<mat-card>
+    <form enctype="multipart/form-data"> 
+        <div>
+            <input type="file"
+           id="file"
+           placeholder="choose csv file"
+           (change)="uploadfile($event.target.files)" accept=".csv">
+        </div>    
+    </form>
+</mat-card>
